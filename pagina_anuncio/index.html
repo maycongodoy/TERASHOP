@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="landing.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="imagens/logo2.jpg"></div>
+
+            <div class="pesquisa">
+                <form action=" " method="post" class="form">
+                    <label for="busca">
+                        <div class="conteudo">
+                            <input type="search" id="busca" name="q" placeholder="Pesquise no Google ou digite uma URL.">
+                            <a href=""><img src="imagens/iconebusca.jpg" width="20" height="20"></a>
+                        </div>
+                    </label>
+                  </form>
+            </div>
+         </nav>
+        <div class="menuInterativo">
+                <ul>
+                    <li>HOME</li>
+                    <li>CATEGORIAS</li>
+                    <li>MARCAS</li>
+                    <li>PROMOÇÕES</li>
+                </ul>
+        </div>
+
+    </header>
+    <section>
+        <div class="container">
+            <div class="infoleft">
+                <div class="tit">
+                    Tênis Nike Shox Nz Se - Preto e Vermelho
+                </div>
+                <div class="imageang">
+                    <a href="" id="image1" onclick="trocar(1)"><img src="imagens/banner2.png"></a>
+                </div>
+                <div class="imageang">
+                    <a href="" id="image2" onclick="trocar(2)"><img src="imagens/banner.png"></a>
+                </div>
+                <div class="imageang">
+                    <a href="" id="image3" onclick="trocar(3)"><img src="imagens/D12-2761-002_zoom3.png"></a>
+                </div>
+                <div class="infoclass">
+                    O Tênis Nike Shox Nz Se foi desenvolvido para os homens que não dispensam conforto e nem estilo. Uma ótima pedida para compor a produção e aproveitar a casualidade do dia a dia.
+                </div>
+            </div>
+            <div class="banner" id="fotoPrincipal" onclick="trocar(1)">
+                <img src="imagens/banner.jpg"  id="meRemova" alt="">
+            </div>
+            <div class="inforeight">
+                <div class="preco">
+                    R$ 359,99
+                </div>
+                <div class="infoeconomia">
+                   Economia de  R$ 340,00 (48%) em até 9x de 40,00
+                </div>
+                <div class="infonet">
+                    Vendido e enviado por <a href="file:///F:/Todos%20meus%20estudos%20e%20projetos%20aqui/Meus%20projetos/PROJETO%20E-COMMERCE%20TERA/index.html" style="text-decoration:none;color: white;text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;">TERASHOP</a>
+                </div>
+                <div class="cor">
+                    Cor: Preto e Vermelho.
+                </div>
+                <img src="./imagens/miniatura1.jpg" width="100" height="100" class="corimage">
+                <div class="tamanho">
+                    Tamanho:
+                    <form method="POST">
+                        <select name="" id="">
+                            <option>Num 36</option>
+                            <option>38</option>
+                            <option>40</option>
+                            <option>42</option>
+                            <option>44</option>
+                            <option>46</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="comprar">
+                    <a href="">COMPRAR</a>
+                </div>
+                <div class="prazo">
+                    <div class="titprazo">
+                        Consulte prazo de Entrega
+                    </div>
+                    <form method="POST" class="cep">
+                        <input type="number" placeholder="Digite o CEP">
+                        <input type="Submit">
+                    </form>
+                </div>
+            </div>            
+        </div>
+        <div class="cartoes">
+            <ul>
+                <li><a href=""><img src="imagens/hipercard.png"></a></li>
+                <li><a href=""><img src="imagens/visa.png"> </a></li>
+                <li><a href=""><img src="imagens/elo.png"> </a></li>
+                <li><a href=""><img src="imagens/mastercard.png"> </a></li>
+                <li><a href=""><img src="imagens/paypal.png"> </a></li>
+                <li><a href=""><img src="imagens/boleto.png"> </a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        
+        <div class="rodape">
+            <div class="sobreEmpresa">
+            <ul>
+                <li>SOBRE A EMPRESA</li>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Nossos Parceiro</a></li>
+                <li><a href="">Linktree</a></li>
+                <li><a href="">Mais Links</a></li>
+            </ul>
+            </div>
+            <div class="sobreEmpresa2">
+                <ul>
+                    <li>SOBRE A EMPRESA</li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Nossos Parceiro</a></li>
+                    <li><a href="">Linktree</a></li>
+                    <li><a href="">Mais Links</a></li>
+                </ul>
+                </div>
+            <div class="social"> 
+                <a href=""><img src="imagens/wzp.png" border="0" width="44" height="44 "></a>                    
+                <a href=""><img src="imagens/facebook.png" border="0" width="38" height="38"></a>               
+                <a href=""><img src="imagens/youtube.png" border="0" width="32" height="32"></a>
+                <a href=""><img src="imagens/twitter.png" border="0" width="26" height="26"></a>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="anuncio.js"></script>
+</body>
+    
+</html>
