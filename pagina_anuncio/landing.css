@@ -121,7 +121,7 @@ section .container {
     font-size: 23px;
     line-height: 30px;
 }
-.container .infoleft .imageang a img{
+.container .infoleft .imageang div img{
     margin-left: 10px;
     width: 100px;
     height: 100px;
@@ -130,7 +130,7 @@ section .container {
     -webkit-border-radius: 21px 21px 21px 21px;
     border: 2px solid #000000;
 }
-.container .infoleft .imageang a img:hover {
+.container .infoleft .imageang div img:hover {
     transform: scale(1.2);
     cursor: pointer;
     transition: 1s;
