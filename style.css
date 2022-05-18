@@ -60,7 +60,7 @@ nav {
         margin-left: -20px;
         list-style: none;
         font-family: 'Bebas Neue', "cursive";
-        line-height: 0rem;
+        line-height: 2rem;
         color: #6E6E6E;
 }
 .menuInterativo ul li{
@@ -68,7 +68,7 @@ nav {
     text-align: center;
     justify-content: center;
     background-color: white;
-    padding: 1rem 0.3rem;
+    padding: 0rem 0.3rem;
     border-radius: 1.5rem;
     width: 100%;
     transition: all 300ms 00ms ;
